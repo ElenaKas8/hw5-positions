@@ -1,3 +1,15 @@
+ * {
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+ }
+
+ .container-top div {
+     width: 50px;
+     height: 50px;
+ }
+
  .container-top {
      border: 1px solid black;
      max-height: 100px;
@@ -8,18 +20,20 @@
      position: relative;
  }
 
- .box {
+ /* .box {
      width: 50px;
      height: 50px;
 
- }
+ } */
 
- .box1 {
+ .box1,
+ .box4 {
      border: 1px solid red;
 
  }
 
- .box2 {
+ .box2,
+ .box5 {
      border: 1px solid rgb(25, 25, 220);
      position: relative;
      left: 20px;
@@ -33,13 +47,11 @@
 
  /* -------------2------------ */
  .box4 {
-     border: 1px solid red;
      position: relative;
      top: 0;
  }
 
  .box5 {
-     border: 1px solid blue;
      position: absolute;
      top: 25px;
      left: 25px;
@@ -53,7 +65,10 @@
  }
 
  /* -------------3---------- */
- .box7 {
+ .box7,
+ .box10,
+ .box13,
+ .box16 {
      background-color: red;
      position: relative;
      top: 0px;
@@ -75,11 +90,7 @@
  }
 
  /* -------------4-------------- */
- .box10 {
-     background-color: red;
-     position: relative;
-     top: 0px;
- }
+
 
  .box11 {
      background-color: rgb(125, 125, 245);
@@ -98,12 +109,7 @@
  }
 
  /* -------------5------------ */
- .box13 {
 
-     background-color: red;
-     position: relative;
-     top: 0px;
- }
 
  .box14 {
      background-color: rgb(130, 130, 232);
@@ -114,18 +120,13 @@
  }
 
  .box15 {
-     background-color: green;
+     background-color: rgb(114, 244, 114);
      position: absolute;
      top: 60px;
      left: 60px;
  }
 
  /* ---------6-------- */
- .box16 {
-     background-color: red;
-     position: relative;
-     top: 0px;
- }
 
  .box17 {
      background-color: rgb(107, 107, 231);
